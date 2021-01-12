@@ -10,7 +10,7 @@ function playSound(e) {
     key.classList.add('playing');
 };
 
-// removing function 
+// removing Playing effect function 
 
 function removeTransition(e) {
     if (e.propertyName !== 'transform') return;
