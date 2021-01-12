@@ -14,3 +14,12 @@ I Took on a challenge to make my clone:
 -   Template literals and ES6 Format 
 -   DOM Manipulation
 -   animation
+
+2. Drum kit
+
+-   Date Method for hours, minutes and seconds
+-   Transform-origin to fix the needle point
+-   Transform property with rotate
+-   ES6 Template literals
+-   DOM Manipulation
+-   Animation 
