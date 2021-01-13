@@ -23,3 +23,12 @@ I Took on a challenge to make my clone:
 -   ES6 Template literals
 -   DOM Manipulation
 -   Animation 
+
+
+3. JS Update Variables
+
+-   A function to update the css variables
+-   Using JS to make variables wit `setProperty`
+-   2 Event listener for mousemove & change
+-   ES6 Arrow functions
+-   DOM Manipulation

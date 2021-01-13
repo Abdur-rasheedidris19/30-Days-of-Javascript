@@ -1,0 +1,71 @@
+
+/* Variables */
+:root {
+    --primary-color: #d7722e;
+    --secondary-color: #333333;
+    --tertiary-color: #ffffff;
+    --base: #111110;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    max-width: 760px;
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin: auto;
+}
+
+/* Heading and Paragrpahs */
+
+h3 {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 30px;
+    color: var(--tertiary-color);
+}
+
+p {
+    font-size: 1.3rem;
+    color: var(--base);
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+}
+.controls {
+   margin: 30px;
+}
+
+
+.colorpick-eyedropper-input-trigger {
+    margin: 0;
+}
+
+/* Spacing, Color and Blur Names */
+
+label {
+    font-size: 1.5rem;
+    margin: 3px;
+}
+
+/* Spacing, Color and Blur Control */
+input {
+    margin: 5px;
+    width: 100px;
+}
+
+/*Image tags */
+img {
+    margin: 20px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.yellow {
+    color: var(--base);
+}
